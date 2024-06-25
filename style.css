@@ -1,4 +1,3 @@
-
 .container {
   max-width: 1280px;
 }
@@ -16,37 +15,156 @@
 .navbar_list li:hover {
   color: #20c997;
 }
-.bannar{
-    background-image: url("./images/bannarBG.jpg");
-    height: 600px;
-    background-repeat: no-repeat;
+.bannar {
+  background-image: url("./images/bannarBG.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-.bannar_title{
-    color: white;
-    font-size: 48px;
-    padding-top: 140px;
+.bannar_title {
+  color: white;
+  font-size: 48px;
+  padding-top: 140px;
 }
-.bannar_pera{
-   color: white;
-    font-size: 18px;
-    margin-top: 40px;  
+.bannar_pera {
+  color: white;
+  font-size: 18px;
+  margin-top: 40px;
 }
-.Btn{
-    border: 1px solid white;
-    border-radius: 25px;
-    background: white;
-    padding: 10px 22px;
-    color: #20c997;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 500;
+.Btn {
+  border: 1px solid white;
+  border-radius: 25px;
+  background: white;
+  padding: 10px 22px;
+  color: #20c997;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
-.Btn:hover{
-    border: 1px solid #20c997;
-    background: #20c997;
-    color: white;
+.Btn:hover {
+  border: 1px solid #20c997;
+  background: #20c997;
+  color: white;
 }
-.bannar_Btn{
-    margin-top: 50px;
+.bannar_Btn {
+  margin-top: 50px;
+}
+.bannar_item_Area {
+  color: white;
+  margin-top: 80px;
+}
+.bannar_item_Area .bannarItem_icon {
+  font-size: 80px;
+}
+.bannar_item1 {
+  background: #48a7d4;
+  padding: 50px 48px;
+}
+.bannar_item_Area h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.bannar_item_Area p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.bannar_item2 {
+  background: #fdc735;
+  padding: 50px 48px;
+}
+.bannar_item3 {
+  background: #307ad5;
+  padding: 50px 48px;
+}
+.bannar_item4 {
+  background: #10c45c;
+  padding: 50px 48px;
+}
+.about{
+  margin-top: 300px;
+  margin-bottom: 80px;
+}
+.about_textArea{
+  position: relative;
+  padding-left: 30px;
+}
+.about_textArea::before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 90px;
+    background-color: #10c45c;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.about_textArea span{
+  color: #10c45c;
+  font-weight: 400;
+}
+.about_textArea h2{
+  font-size: 48px;
+  font-weight: 700;
+}
+.about_textArea h5{
+  color: #10c45c;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 24px;
+}
+.about_textArea p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 44px;
+}
+
+.aboutBtn {
+  border: 1px solid white;
+  border-radius: 25px;
+  background: #00a651;
+  padding: 10px 22px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.aboutBtn:hover {
+  border: 1px solid #6c757d;
+  background: #6c757d;
+  color: white;
+}
+.course_title{
+  position: relative;
+  padding-left: 30px;
+}
+.course_title::before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 90px;
+    background-color: #10c45c;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.course_title span{
+  font-weight: 700;
+  color: black;
+}
+.course_title h2{
+  font-size: 48px;
+  font-weight: 400;
+   color: #10c45c;
+}
+.course_title p{
+  max-width: 600px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 24px;
 }
