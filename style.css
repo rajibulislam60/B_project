@@ -81,45 +81,48 @@
   background: #10c45c;
   padding: 50px 48px;
 }
-.about{
+.about {
   margin-top: 300px;
   margin-bottom: 80px;
 }
-.about_textArea{
+.about_textArea {
   position: relative;
   padding-left: 30px;
 }
 .about_textArea::before {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 90px;
-    background-color: #10c45c;
-    margin-bottom: 10px;
-    position: absolute;
-    left: 0;
-    top: 10px;
+  content: "";
+  display: block;
+  width: 5px;
+  height: 90px;
+  background-color: #10c45c;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 0;
+  top: 10px;
 }
-.about_textArea span{
+.about_textArea span {
   color: #10c45c;
   font-weight: 400;
 }
-.about_textArea h2{
+.about_textArea h2 {
   font-size: 48px;
   font-weight: 700;
 }
-.about_textArea h5{
+.about_textArea h5 {
   color: #10c45c;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   margin-top: 24px;
 }
-.about_textArea p{
+.about_textArea p {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   margin-top: 44px;
+}
+.aboutImg{
+  width: 100%;
 }
 
 .aboutBtn {
@@ -137,34 +140,155 @@
   background: #6c757d;
   color: white;
 }
-.course_title{
+.course_title {
   position: relative;
   padding-left: 30px;
 }
 .course_title::before {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 90px;
-    background-color: #10c45c;
-    margin-bottom: 10px;
-    position: absolute;
-    left: 0;
-    top: 10px;
+  content: "";
+  display: block;
+  width: 5px;
+  height: 90px;
+  background-color: #10c45c;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 0;
+  top: 10px;
 }
-.course_title span{
+.course_title span {
   font-weight: 700;
   color: black;
 }
-.course_title h2{
+.course_title h2 {
   font-size: 48px;
   font-weight: 400;
-   color: #10c45c;
+  color: #10c45c;
 }
-.course_title p{
+.course_title p {
   max-width: 600px;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   margin-top: 24px;
+}
+
+/* ================== Achievement css ============ */
+.achievement {
+  margin: 80px 0;
+}
+.achievement_title {
+  position: relative;
+  padding-left: 30px;
+}
+.achievement_title::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 90px;
+  background-color: #10c45c;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.achievement_title span {
+  font-weight: 400;
+  color: #10c45c;
+}
+.achievement_title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+.achievement_title p {
+  max-width: 600px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 24px;
+}
+
+.achieveIcon {
+  font-size: 58px;
+  margin-top: 16px;
+}
+.achievement_details {
+  margin-top: 50px;
+}
+.achievement_details h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #10c45c;
+}
+.achievement_details h5 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.achievement_item2 {
+  position: relative;
+  padding-left: 50px;
+}
+.achievement_item2::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 80%;
+  background-color: gray;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.achievement_item3 {
+  position: relative;
+  padding-left: 50px;
+}
+.achievement_item3::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 80%;
+  background-color: gray;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.achievement_item4 {
+  position: relative;
+  padding-left: 50px;
+}
+.achievement_item4::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 80%;
+  background-color: gray;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.achievement_bannar{
+  margin-top: 50px;
+}
+.achieveImg {
+  width: 100%;
+}
+.achievement__text {
+  background: #00a651;
+  padding-left: 24px;
+}
+.achievement__text p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-top: 80px;
+}
+.achievement__text h4{
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 38px;
 }
