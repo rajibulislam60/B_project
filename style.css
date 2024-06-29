@@ -390,3 +390,68 @@
   background: black;
   color: white;
 }
+/* ============ Teacher CSS ============ */
+.teacher{
+  margin: 50px 0;
+}
+.teacher_title {
+  position: relative;
+  padding-left: 30px;
+}
+.teacher_title::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 90px;
+  background-color: #10c45c;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.teacher_title span {
+  font-weight: 400;
+  color: #10c45c;
+}
+.teacher_title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+.teacher_title p {
+  max-width: 600px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 24px;
+}
+.teacherImg{
+  width: 100%;
+  height: 400px;
+}
+.teacher_hover{
+  position: relative;
+  text-align: center;
+}
+.teacher_title_hover{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: white;
+  transition: 0.4s;
+}
+.teacher_overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #9eeebf91;
+  top: 0;
+  z-index: -1;
+  transition: 0.4s;
+}
+.teacher_hover:hover .teacher_title_hover{
+  z-index: -1;
+}
+.teacher_hover:hover .teacher_overlay{
+  z-index: 1;
+}
